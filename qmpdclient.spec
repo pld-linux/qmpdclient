@@ -10,6 +10,7 @@ Source0:	http://havtknut.tihlde.org/qmpdclient/files/%{name}-%{version}.tar.gz
 URL:		http://havtknut.tihlde.org/qmpdclient
 BuildRequires:	QtGui-devel
 BuildRequires:	libpng-devel
+BuildRequires:	qt4-build
 BuildRequires:	qt4-qmake
 Suggests:	mpd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -44,5 +45,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/%{name}
 %doc AUTHORS Changelog README THANKSTO
-%dir %{_datadir}/icons/hicolor
-%{_datadir}/icons/hicolor/*
+%{_datadir}/icons/hicolor/*/apps/*.png
