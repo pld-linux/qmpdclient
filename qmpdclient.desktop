@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=QMPDClient
+GenericName=Qt4 based MPD client
+Comment=A nicer MPD client
+Comment[hu]=Egy könnyed MPD kliens
+Exec=qmpdclient
+Categories=Qt;Music;Audio;Player
+Icon=qmpdclient.png
+Terminal=false
