@@ -2,7 +2,7 @@ Summary:	QMPDClient is an easy to use MPD client written in Qt 4
 Summary(hu.UTF-8):	QMPDClient egy könnyen használható Qt4-alapú MPD kliens
 Name:		qmpdclient
 Version:	1.2.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	http://dump.bitcheese.net/files/%{name}-%{version}.tar.bz2
